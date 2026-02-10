@@ -1,0 +1,30 @@
+{
+  "amazon_queries": [
+    "Icelandic Hoodies",
+    "Volcanic Jewelry",
+    "Omnom Chocolate"
+  ],
+  "youtube_queries": [
+    "Icelandic Hoodies",
+    "Volcanic Jewelry",
+    "Omnom Chocolate"
+  ],
+  "reddit_subreddits": {
+    "tech": [
+      "gadgets",
+      "technology"
+    ],
+    "shopping": [
+      "deals",
+      "BuyItForLife"
+    ],
+    "fitness": [
+      "fitness",
+      "homegym"
+    ],
+    "lifestyle": [
+      "skincareaddiction",
+      "malefashionadvice"
+    ]
+  }
+}

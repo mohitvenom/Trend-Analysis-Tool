@@ -1,0 +1,489 @@
+2026-02-09 12:04:02,898 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-09 12:04:02,898 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-09 12:04:02,898 | INFO | Fetching bestsellers (category: 7939902011) on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 12:04:08,360 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 12:04:08,360 | INFO | Fetching bestsellers (category: 7939902011) on amazon.co.uk via SerpApi (Key: ...a819)
+2026-02-09 12:04:11,914 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 12:04:11,914 | INFO | Fetching bestsellers (category: 7939902011) on amazon.co.uk via SerpApi (Key: ...cffe)
+2026-02-09 12:04:14,152 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 12:04:14,152 | INFO | Fetching bestsellers (category: 7939902011) on amazon.co.uk via SerpApi (Key: ...ab84)
+2026-02-09 12:04:16,333 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 12:04:16,333 | INFO | Fetching bestsellers (category: 7939902011) on amazon.co.uk via SerpApi (Key: ...4106)
+2026-02-09 12:04:18,240 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 12:04:18,240 | INFO | Fetching bestsellers (category: 7939902011) on amazon.co.uk via SerpApi (Key: ...16ba)
+2026-02-09 12:04:20,415 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 12:04:20,415 | INFO | Fetching bestsellers (category: 7939902011) on amazon.co.uk via SerpApi (Key: ...dde4)
+2026-02-09 12:04:23,104 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 12:04:23,104 | ERROR | All SerpApi keys failed or exhausted.
+2026-02-09 12:04:23,105 | WARNING | No bestsellers found for 'smart watch' in Iceland
+2026-02-09 12:04:23,115 | WARNING | Amazon scraper completed but found NO records.
+2026-02-09 12:08:00,498 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-09 12:08:00,498 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-09 12:08:00,498 | INFO | Fetching 'smart watch' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 12:08:06,510 | INFO | Fetching 'wireless earbuds' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 12:08:15,062 | INFO | Fetching 'running shoes' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 12:08:24,238 | INFO | Amazon scraper completed | records: 30
+2026-02-09 12:13:03,043 | INFO | Pipeline execution started
+2026-02-09 12:13:03,043 | INFO | Starting step: Amazon Scraper
+2026-02-09 12:13:04,903 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-09 12:13:04,904 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-09 12:13:04,904 | INFO | Fetching 'Icelandic Hoodies' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 12:13:13,142 | INFO | Amazon scraper completed | records: 10
+2026-02-09 12:13:13,367 | INFO | Step completed successfully: Amazon Scraper
+2026-02-09 12:13:13,367 | INFO | Starting step: Trend Intelligence Pipeline
+2026-02-09 12:13:15,876 | INFO | Step completed successfully: Trend Intelligence Pipeline
+2026-02-09 12:13:15,877 | INFO | Pipeline execution completed
+2026-02-09 12:16:20,302 | INFO | Pipeline execution started
+2026-02-09 12:16:20,303 | INFO | Starting step: Amazon Scraper
+2026-02-09 12:16:23,507 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-09 12:16:23,508 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-09 12:16:23,508 | INFO | Fetching 'Icelandic Hoodies' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 12:16:27,585 | INFO | Amazon scraper completed | records: 10
+2026-02-09 12:16:27,840 | INFO | Step completed successfully: Amazon Scraper
+2026-02-09 12:16:27,840 | INFO | Starting step: Trend Intelligence Pipeline
+2026-02-09 12:16:30,979 | INFO | Step completed successfully: Trend Intelligence Pipeline
+2026-02-09 12:16:30,980 | INFO | Pipeline execution completed
+2026-02-09 12:37:45,734 | INFO | Pipeline execution started
+2026-02-09 12:37:45,734 | INFO | Starting step: Amazon Scraper
+2026-02-09 12:37:48,553 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-09 12:37:48,554 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-09 12:37:48,555 | INFO | Fetching 'wireless earbuds' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 12:37:51,616 | INFO | Fetching 'smart watch' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 12:37:54,675 | INFO | Fetching 'running shoes' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 12:37:57,915 | INFO | Fetching 'laptop backpack' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 12:38:04,137 | INFO | Fetching 'portable charger' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 12:38:09,130 | INFO | Fetching 'bluetooth speaker' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 12:38:16,014 | INFO | Amazon scraper completed | records: 60
+2026-02-09 12:38:16,184 | INFO | Step completed successfully: Amazon Scraper
+2026-02-09 12:38:16,184 | INFO | Starting step: Trend Intelligence Pipeline
+2026-02-09 12:38:19,952 | INFO | Step completed successfully: Trend Intelligence Pipeline
+2026-02-09 12:38:19,952 | INFO | Pipeline execution completed
+2026-02-09 13:30:00,982 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-09 13:30:00,982 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-09 13:30:00,983 | INFO | Fetching 'Icelandic Hoodies' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:30:06,426 | INFO | Fetching 'Volcanic Jewelry' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:30:11,480 | INFO | Fetching 'Omnom Chocolate' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:30:16,093 | INFO | Amazon scraper completed | records: 30
+2026-02-09 13:47:31,499 | INFO | eBay scraper started (Iceland via SerpApi)
+2026-02-09 13:47:31,501 | INFO | --- Processing Iceland (ebay.co.uk) ---
+2026-02-09 13:47:31,501 | INFO | Fetching 'Icelandic Hoodies' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:47:37,491 | INFO | Fetching 'Volcanic Jewelry' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:47:44,449 | INFO | Fetching 'Omnom Chocolate' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:47:49,265 | INFO | eBay scraper completed | records: 27
+2026-02-09 13:48:52,036 | INFO | Pipeline execution started
+2026-02-09 13:48:52,036 | INFO | Starting step: Amazon Scraper
+2026-02-09 13:48:54,542 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-09 13:48:54,542 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-09 13:48:54,542 | INFO | Fetching 'Icelandic Hoodies' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:48:57,492 | INFO | Fetching 'Volcanic Jewelry' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:49:00,403 | INFO | Fetching 'Omnom Chocolate' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:49:03,466 | ERROR | Step failed: Amazon Scraper | stderr: Traceback (most recent call last):
+  File "C:\Users\Sp1\Desktop\trend_proto\scrapers\amazon_mvp.py", line 150, in <module>
+    run_amazon_scraper(queries=q_list)
+  File "C:\Users\Sp1\Desktop\trend_proto\scrapers\amazon_mvp.py", line 138, in run_amazon_scraper
+    df.to_csv(OUTPUT_CSV, index=False)
+  File "C:\Users\Sp1\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sp1\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sp1\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "C:\Users\Sp1\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Users\Sp1\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+PermissionError: [Errno 13] Permission denied: 'outputs/amazon_trending.csv'
+
+2026-02-09 13:49:03,466 | INFO | Starting step: eBay Scraper
+2026-02-09 13:49:05,648 | INFO | eBay scraper started (Iceland via SerpApi)
+2026-02-09 13:49:05,648 | INFO | --- Processing Iceland (ebay.co.uk) ---
+2026-02-09 13:49:05,648 | INFO | Fetching 'Icelandic Hoodies' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:49:08,645 | INFO | Fetching 'Volcanic Jewelry' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:49:11,722 | INFO | Fetching 'Omnom Chocolate' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:49:14,384 | INFO | eBay scraper completed | records: 27
+2026-02-09 13:49:14,540 | INFO | Step completed successfully: eBay Scraper
+2026-02-09 13:49:14,540 | INFO | Starting step: Trend Intelligence Pipeline
+2026-02-09 13:49:17,544 | INFO | Step completed successfully: Trend Intelligence Pipeline
+2026-02-09 13:49:17,544 | INFO | Pipeline execution completed
+2026-02-09 13:52:07,197 | INFO | Etsy scraper started (Global marketplace via SerpApi)
+2026-02-09 13:52:07,197 | INFO | --- Processing Etsy (Global marketplace) ---
+2026-02-09 13:52:07,197 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...d36e)
+2026-02-09 13:52:09,090 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:09,090 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...a819)
+2026-02-09 13:52:10,821 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:10,822 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...cffe)
+2026-02-09 13:52:12,966 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:12,966 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...ab84)
+2026-02-09 13:52:16,319 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:16,319 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...4106)
+2026-02-09 13:52:18,159 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:18,159 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...16ba)
+2026-02-09 13:52:19,950 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:19,950 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...dde4)
+2026-02-09 13:52:21,619 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:21,619 | ERROR | All SerpApi keys failed or exhausted.
+2026-02-09 13:52:21,631 | WARNING | No results found for 'Icelandic Hoodies' on Etsy
+2026-02-09 13:52:21,631 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...d36e)
+2026-02-09 13:52:23,423 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:23,423 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...a819)
+2026-02-09 13:52:25,316 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:25,316 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...cffe)
+2026-02-09 13:52:27,131 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:27,131 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...ab84)
+2026-02-09 13:52:28,972 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:28,972 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...4106)
+2026-02-09 13:52:30,821 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:30,830 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...16ba)
+2026-02-09 13:52:32,648 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:32,648 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...dde4)
+2026-02-09 13:52:34,590 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:34,590 | ERROR | All SerpApi keys failed or exhausted.
+2026-02-09 13:52:34,590 | WARNING | No results found for 'Volcanic Jewelry' on Etsy
+2026-02-09 13:52:34,590 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...d36e)
+2026-02-09 13:52:36,631 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:36,631 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...a819)
+2026-02-09 13:52:38,437 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:38,437 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...cffe)
+2026-02-09 13:52:40,518 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:40,518 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...ab84)
+2026-02-09 13:52:42,297 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:42,297 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...4106)
+2026-02-09 13:52:44,130 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:44,130 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...16ba)
+2026-02-09 13:52:45,940 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:45,940 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...dde4)
+2026-02-09 13:52:47,790 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:52:47,790 | ERROR | All SerpApi keys failed or exhausted.
+2026-02-09 13:52:47,797 | WARNING | No results found for 'Omnom Chocolate' on Etsy
+2026-02-09 13:52:47,805 | WARNING | Etsy scraper completed but found NO records.
+2026-02-09 13:54:15,312 | INFO | Pipeline execution started
+2026-02-09 13:54:15,313 | INFO | Starting step: Amazon Scraper
+2026-02-09 13:54:18,195 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-09 13:54:18,196 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-09 13:54:18,196 | INFO | Fetching 'Icelandic Hoodies' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:54:21,645 | INFO | Fetching 'Volcanic Jewelry' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:54:25,106 | INFO | Fetching 'Omnom Chocolate' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:54:28,425 | ERROR | Step failed: Amazon Scraper | stderr: Traceback (most recent call last):
+  File "C:\Users\Sp1\Desktop\trend_proto\scrapers\amazon_mvp.py", line 150, in <module>
+    run_amazon_scraper(queries=q_list)
+  File "C:\Users\Sp1\Desktop\trend_proto\scrapers\amazon_mvp.py", line 138, in run_amazon_scraper
+    df.to_csv(OUTPUT_CSV, index=False)
+  File "C:\Users\Sp1\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sp1\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sp1\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "C:\Users\Sp1\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Users\Sp1\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+PermissionError: [Errno 13] Permission denied: 'outputs/amazon_trending.csv'
+
+2026-02-09 13:54:28,425 | INFO | Starting step: eBay Scraper
+2026-02-09 13:54:30,741 | INFO | eBay scraper started (Iceland via SerpApi)
+2026-02-09 13:54:30,742 | INFO | --- Processing Iceland (ebay.co.uk) ---
+2026-02-09 13:54:30,743 | INFO | Fetching 'Icelandic Hoodies' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:54:33,897 | INFO | Fetching 'Volcanic Jewelry' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:54:37,858 | INFO | Fetching 'Omnom Chocolate' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 13:54:40,631 | INFO | eBay scraper completed | records: 27
+2026-02-09 13:54:41,043 | INFO | Step completed successfully: eBay Scraper
+2026-02-09 13:54:41,043 | INFO | Starting step: Etsy Scraper
+2026-02-09 13:54:43,664 | INFO | Etsy scraper started (Global marketplace via SerpApi)
+2026-02-09 13:54:43,664 | INFO | --- Processing Etsy (Global marketplace) ---
+2026-02-09 13:54:43,664 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...d36e)
+2026-02-09 13:54:45,464 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:54:45,464 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...a819)
+2026-02-09 13:54:47,673 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:54:47,673 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...cffe)
+2026-02-09 13:54:49,631 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:54:49,631 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...ab84)
+2026-02-09 13:54:51,659 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:54:51,659 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...4106)
+2026-02-09 13:54:53,518 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:54:53,518 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...16ba)
+2026-02-09 13:54:55,373 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:54:55,373 | INFO | Fetching 'Icelandic Hoodies' on Etsy via SerpApi (Key: ...dde4)
+2026-02-09 13:54:57,184 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:54:57,184 | ERROR | All SerpApi keys failed or exhausted.
+2026-02-09 13:54:57,184 | WARNING | No results found for 'Icelandic Hoodies' on Etsy
+2026-02-09 13:54:57,184 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...d36e)
+2026-02-09 13:54:59,168 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:54:59,168 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...a819)
+2026-02-09 13:55:00,984 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:55:00,984 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...cffe)
+2026-02-09 13:55:02,697 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:55:02,697 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...ab84)
+2026-02-09 13:55:04,666 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:55:04,666 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...4106)
+2026-02-09 13:55:06,481 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:55:06,481 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...16ba)
+2026-02-09 13:55:08,534 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:55:08,534 | INFO | Fetching 'Volcanic Jewelry' on Etsy via SerpApi (Key: ...dde4)
+2026-02-09 13:55:10,418 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:55:10,418 | ERROR | All SerpApi keys failed or exhausted.
+2026-02-09 13:55:10,418 | WARNING | No results found for 'Volcanic Jewelry' on Etsy
+2026-02-09 13:55:10,421 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...d36e)
+2026-02-09 13:55:12,219 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:55:12,219 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...a819)
+2026-02-09 13:55:13,984 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:55:13,984 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...cffe)
+2026-02-09 13:55:15,890 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:55:15,890 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...ab84)
+2026-02-09 13:55:17,693 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:55:17,693 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...4106)
+2026-02-09 13:55:19,438 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:55:19,438 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...16ba)
+2026-02-09 13:55:21,218 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:55:21,218 | INFO | Fetching 'Omnom Chocolate' on Etsy via SerpApi (Key: ...dde4)
+2026-02-09 13:55:22,918 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 13:55:22,918 | ERROR | All SerpApi keys failed or exhausted.
+2026-02-09 13:55:22,919 | WARNING | No results found for 'Omnom Chocolate' on Etsy
+2026-02-09 13:55:22,922 | WARNING | Etsy scraper completed but found NO records.
+2026-02-09 13:55:23,085 | INFO | Step completed successfully: Etsy Scraper
+2026-02-09 13:55:23,085 | INFO | Starting step: Trend Intelligence Pipeline
+2026-02-09 13:55:25,599 | INFO | Step completed successfully: Trend Intelligence Pipeline
+2026-02-09 13:55:25,599 | INFO | Pipeline execution completed
+2026-02-09 14:19:56,250 | INFO | Etsy scraper started (Official API v3)
+2026-02-09 14:19:56,252 | INFO | --- Processing Etsy (Global marketplace) ---
+2026-02-09 14:19:56,252 | INFO | Fetching 'Icelandic Hoodies' from Etsy API v3
+2026-02-09 14:20:06,020 | ERROR | Etsy API access forbidden. You may need commercial access.
+2026-02-09 14:22:01,370 | INFO | Etsy scraper started (Official API v3)
+2026-02-09 14:22:01,403 | INFO | --- Processing Etsy (Global marketplace) ---
+2026-02-09 14:22:01,403 | INFO | Fetching 'Icelandic Hoodies' from Etsy API v3
+2026-02-09 14:22:04,118 | ERROR | Etsy API access forbidden. You may need commercial access.
+2026-02-09 14:22:04,121 | WARNING | No results found for 'Icelandic Hoodies' on Etsy
+2026-02-09 14:22:04,121 | INFO | Fetching 'Volcanic Jewelry' from Etsy API v3
+2026-02-09 14:22:06,723 | ERROR | Etsy API access forbidden. You may need commercial access.
+2026-02-09 14:22:06,725 | WARNING | No results found for 'Volcanic Jewelry' on Etsy
+2026-02-09 14:22:06,725 | INFO | Fetching 'Omnom Chocolate' from Etsy API v3
+2026-02-09 14:22:09,807 | ERROR | Etsy API access forbidden. You may need commercial access.
+2026-02-09 14:22:09,809 | WARNING | No results found for 'Omnom Chocolate' on Etsy
+2026-02-09 14:22:09,841 | WARNING | Etsy scraper completed but found NO records.
+2026-02-09 14:24:20,589 | INFO | Etsy scraper started (Official API v3)
+2026-02-09 14:24:20,598 | INFO | --- Processing Etsy (Global marketplace) ---
+2026-02-09 14:24:20,598 | INFO | Fetching 'Icelandic Hoodies' from Etsy API v3
+2026-02-09 14:24:23,134 | ERROR | Etsy API HTTP Error: 404 - {"error": "Resource not found"}
+
+2026-02-09 14:24:23,136 | WARNING | No results found for 'Icelandic Hoodies' on Etsy
+2026-02-09 14:24:23,136 | INFO | Fetching 'Volcanic Jewelry' from Etsy API v3
+2026-02-09 14:24:26,899 | ERROR | Etsy API HTTP Error: 404 - {"error": "Resource not found"}
+
+2026-02-09 14:24:26,901 | WARNING | No results found for 'Volcanic Jewelry' on Etsy
+2026-02-09 14:24:26,901 | INFO | Fetching 'Omnom Chocolate' from Etsy API v3
+2026-02-09 14:24:28,969 | ERROR | Etsy API HTTP Error: 404 - {"error": "Resource not found"}
+
+2026-02-09 14:24:28,971 | WARNING | No results found for 'Omnom Chocolate' on Etsy
+2026-02-09 14:24:28,981 | WARNING | Etsy scraper completed but found NO records.
+2026-02-09 14:25:44,776 | INFO | Pipeline execution started
+2026-02-09 14:25:44,776 | INFO | Starting step: Amazon Scraper
+2026-02-09 14:25:49,759 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-09 14:25:49,768 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-09 14:25:49,769 | INFO | Fetching 'Icelandic Hoodies' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:25:55,155 | INFO | Fetching 'Volcanic Jewelry' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:25:59,164 | INFO | Fetching 'Omnom Chocolate' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:26:02,764 | INFO | Amazon scraper completed | records: 30
+2026-02-09 14:26:03,015 | INFO | Step completed successfully: Amazon Scraper
+2026-02-09 14:26:03,015 | INFO | Starting step: eBay Scraper
+2026-02-09 14:26:06,411 | INFO | eBay scraper started (Iceland via SerpApi)
+2026-02-09 14:26:06,414 | INFO | --- Processing Iceland (ebay.co.uk) ---
+2026-02-09 14:26:06,414 | INFO | Fetching 'Icelandic Hoodies' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:26:09,047 | INFO | Fetching 'Volcanic Jewelry' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:26:12,340 | INFO | Fetching 'Omnom Chocolate' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:26:14,893 | INFO | eBay scraper completed | records: 27
+2026-02-09 14:26:15,104 | INFO | Step completed successfully: eBay Scraper
+2026-02-09 14:26:15,104 | INFO | Starting step: Trend Intelligence Pipeline
+2026-02-09 14:26:19,372 | INFO | Step completed successfully: Trend Intelligence Pipeline
+2026-02-09 14:26:19,372 | INFO | Pipeline execution completed
+2026-02-09 14:28:38,125 | INFO | AliExpress scraper started (Global marketplace via SerpApi)
+2026-02-09 14:28:38,127 | INFO | --- Processing AliExpress (Global marketplace) ---
+2026-02-09 14:28:38,127 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...d36e)
+2026-02-09 14:28:39,400 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:39,400 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...a819)
+2026-02-09 14:28:41,201 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:41,201 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...cffe)
+2026-02-09 14:28:43,310 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:43,311 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...ab84)
+2026-02-09 14:28:45,188 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:45,188 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...4106)
+2026-02-09 14:28:46,688 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:46,688 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...16ba)
+2026-02-09 14:28:48,547 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:48,547 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...dde4)
+2026-02-09 14:28:50,409 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:50,411 | ERROR | All SerpApi keys failed or exhausted.
+2026-02-09 14:28:50,411 | WARNING | No results found for 'Icelandic Hoodies' on AliExpress
+2026-02-09 14:28:50,411 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...d36e)
+2026-02-09 14:28:51,668 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:51,668 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...a819)
+2026-02-09 14:28:53,020 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:53,020 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...cffe)
+2026-02-09 14:28:54,389 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:54,390 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...ab84)
+2026-02-09 14:28:55,690 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:55,690 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...4106)
+2026-02-09 14:28:57,514 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:57,515 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...16ba)
+2026-02-09 14:28:58,743 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:58,743 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...dde4)
+2026-02-09 14:28:59,959 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:28:59,959 | ERROR | All SerpApi keys failed or exhausted.
+2026-02-09 14:28:59,960 | WARNING | No results found for 'Volcanic Jewelry' on AliExpress
+2026-02-09 14:28:59,960 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...d36e)
+2026-02-09 14:29:01,440 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:29:01,440 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...a819)
+2026-02-09 14:29:02,772 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:29:02,772 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...cffe)
+2026-02-09 14:29:04,564 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:29:04,564 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...ab84)
+2026-02-09 14:29:05,834 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:29:05,834 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...4106)
+2026-02-09 14:29:07,140 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:29:07,140 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...16ba)
+2026-02-09 14:29:08,553 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:29:08,740 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...dde4)
+2026-02-09 14:29:10,601 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:29:10,601 | ERROR | All SerpApi keys failed or exhausted.
+2026-02-09 14:29:10,601 | WARNING | No results found for 'Omnom Chocolate' on AliExpress
+2026-02-09 14:29:13,000 | WARNING | AliExpress scraper completed but found NO records.
+2026-02-09 14:30:07,572 | INFO | Pipeline execution started
+2026-02-09 14:30:07,572 | INFO | Starting step: Amazon Scraper
+2026-02-09 14:30:10,257 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-09 14:30:10,263 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-09 14:30:10,263 | INFO | Fetching 'Icelandic Hoodies' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:30:15,799 | INFO | Fetching 'Volcanic Jewelry' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:30:21,253 | INFO | Fetching 'Omnom Chocolate' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:30:25,645 | INFO | Amazon scraper completed | records: 30
+2026-02-09 14:30:25,813 | INFO | Step completed successfully: Amazon Scraper
+2026-02-09 14:30:25,813 | INFO | Starting step: eBay Scraper
+2026-02-09 14:30:27,850 | INFO | eBay scraper started (Iceland via SerpApi)
+2026-02-09 14:30:27,851 | INFO | --- Processing Iceland (ebay.co.uk) ---
+2026-02-09 14:30:27,851 | INFO | Fetching 'Icelandic Hoodies' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:30:29,780 | INFO | Fetching 'Volcanic Jewelry' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:30:33,997 | INFO | Fetching 'Omnom Chocolate' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:30:35,940 | INFO | eBay scraper completed | records: 27
+2026-02-09 14:30:36,090 | INFO | Step completed successfully: eBay Scraper
+2026-02-09 14:30:36,090 | INFO | Starting step: AliExpress Scraper
+2026-02-09 14:30:38,068 | INFO | AliExpress scraper started (Global marketplace via SerpApi)
+2026-02-09 14:30:38,068 | INFO | --- Processing AliExpress (Global marketplace) ---
+2026-02-09 14:30:38,068 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...d36e)
+2026-02-09 14:30:39,338 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:39,340 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...a819)
+2026-02-09 14:30:41,485 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:41,486 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...cffe)
+2026-02-09 14:30:42,745 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:42,745 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...ab84)
+2026-02-09 14:30:44,505 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:44,505 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...4106)
+2026-02-09 14:30:46,252 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:46,252 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...16ba)
+2026-02-09 14:30:47,459 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:47,459 | INFO | Fetching 'Icelandic Hoodies' on AliExpress via SerpApi (Key: ...dde4)
+2026-02-09 14:30:49,304 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:49,305 | ERROR | All SerpApi keys failed or exhausted.
+2026-02-09 14:30:49,306 | WARNING | No results found for 'Icelandic Hoodies' on AliExpress
+2026-02-09 14:30:49,306 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...d36e)
+2026-02-09 14:30:50,598 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:50,598 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...a819)
+2026-02-09 14:30:51,821 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:51,821 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...cffe)
+2026-02-09 14:30:53,053 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:53,053 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...ab84)
+2026-02-09 14:30:54,856 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:54,856 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...4106)
+2026-02-09 14:30:56,959 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:56,959 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...16ba)
+2026-02-09 14:30:58,116 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:58,118 | INFO | Fetching 'Volcanic Jewelry' on AliExpress via SerpApi (Key: ...dde4)
+2026-02-09 14:30:59,964 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:30:59,964 | ERROR | All SerpApi keys failed or exhausted.
+2026-02-09 14:30:59,966 | WARNING | No results found for 'Volcanic Jewelry' on AliExpress
+2026-02-09 14:30:59,966 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...d36e)
+2026-02-09 14:31:01,170 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:31:01,170 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...a819)
+2026-02-09 14:31:02,331 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:31:02,331 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...cffe)
+2026-02-09 14:31:04,232 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:31:04,232 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...ab84)
+2026-02-09 14:31:05,506 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:31:05,506 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...4106)
+2026-02-09 14:31:07,264 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:31:07,264 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...16ba)
+2026-02-09 14:31:09,390 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:31:09,390 | INFO | Fetching 'Omnom Chocolate' on AliExpress via SerpApi (Key: ...dde4)
+2026-02-09 14:31:11,216 | ERROR | SerpApi HTTP Error: 400
+2026-02-09 14:31:11,216 | ERROR | All SerpApi keys failed or exhausted.
+2026-02-09 14:31:11,218 | WARNING | No results found for 'Omnom Chocolate' on AliExpress
+2026-02-09 14:31:11,222 | WARNING | AliExpress scraper completed but found NO records.
+2026-02-09 14:31:11,390 | INFO | Step completed successfully: AliExpress Scraper
+2026-02-09 14:31:11,390 | INFO | Starting step: Trend Intelligence Pipeline
+2026-02-09 14:31:14,009 | INFO | Step completed successfully: Trend Intelligence Pipeline
+2026-02-09 14:31:14,009 | INFO | Pipeline execution completed
+2026-02-09 14:35:06,866 | INFO | Pipeline execution started
+2026-02-09 14:35:06,868 | INFO | Starting step: Amazon Scraper
+2026-02-09 14:35:11,488 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-09 14:35:11,490 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-09 14:35:11,490 | INFO | Fetching 'Icelandic Hoodies' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:35:15,073 | INFO | Fetching 'Volcanic Jewelry' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:35:18,227 | INFO | Fetching 'Omnom Chocolate' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:35:21,338 | INFO | Amazon scraper completed | records: 30
+2026-02-09 14:35:21,510 | INFO | Step completed successfully: Amazon Scraper
+2026-02-09 14:35:21,510 | INFO | Starting step: eBay Scraper
+2026-02-09 14:35:23,748 | INFO | eBay scraper started (Iceland via SerpApi)
+2026-02-09 14:35:23,748 | INFO | --- Processing Iceland (ebay.co.uk) ---
+2026-02-09 14:35:23,748 | INFO | Fetching 'Icelandic Hoodies' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:35:26,709 | INFO | Fetching 'Volcanic Jewelry' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:35:30,575 | INFO | Fetching 'Omnom Chocolate' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:35:33,398 | INFO | eBay scraper completed | records: 27
+2026-02-09 14:35:33,545 | INFO | Step completed successfully: eBay Scraper
+2026-02-09 14:35:33,547 | INFO | Starting step: Trend Intelligence Pipeline
+2026-02-09 14:35:36,170 | INFO | Step completed successfully: Trend Intelligence Pipeline
+2026-02-09 14:35:36,171 | INFO | Pipeline execution completed
+2026-02-09 14:40:05,838 | INFO | Pipeline execution started
+2026-02-09 14:40:05,838 | INFO | Starting step: Amazon Scraper
+2026-02-09 14:40:09,390 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-09 14:40:09,390 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-09 14:40:09,390 | INFO | Fetching 'Icelandic Hoodies' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:40:12,738 | INFO | Fetching 'Volcanic Jewelry' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:40:16,538 | INFO | Fetching 'Omnom Chocolate' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:40:19,598 | INFO | Amazon scraper completed | records: 30
+2026-02-09 14:40:19,828 | INFO | Step completed successfully: Amazon Scraper
+2026-02-09 14:40:19,829 | INFO | Starting step: eBay Scraper
+2026-02-09 14:40:23,447 | INFO | eBay scraper started (Iceland via SerpApi)
+2026-02-09 14:40:23,447 | INFO | --- Processing Iceland (ebay.co.uk) ---
+2026-02-09 14:40:23,447 | INFO | Fetching 'Icelandic Hoodies' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:40:26,708 | INFO | Fetching 'Volcanic Jewelry' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:40:29,808 | INFO | Fetching 'Omnom Chocolate' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:40:33,609 | INFO | eBay scraper completed | records: 27
+2026-02-09 14:40:33,835 | INFO | Step completed successfully: eBay Scraper
+2026-02-09 14:40:33,835 | INFO | Starting step: Trend Intelligence Pipeline
+2026-02-09 14:40:37,710 | INFO | Step completed successfully: Trend Intelligence Pipeline
+2026-02-09 14:40:37,710 | INFO | Pipeline execution completed
+2026-02-09 14:49:35,640 | INFO | Pipeline execution started
+2026-02-09 14:49:35,641 | INFO | Starting step: Amazon Scraper
+2026-02-09 14:49:38,609 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-09 14:49:38,612 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-09 14:49:38,612 | INFO | Fetching 'Icelandic Hoodies' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:49:41,594 | INFO | Fetching 'Volcanic Jewelry' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:49:44,825 | INFO | Fetching 'Omnom Chocolate' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:49:48,187 | INFO | Amazon scraper completed | records: 30
+2026-02-09 14:49:48,742 | INFO | Step completed successfully: Amazon Scraper
+2026-02-09 14:49:48,742 | INFO | Starting step: eBay Scraper
+2026-02-09 14:49:52,427 | INFO | eBay scraper started (Iceland via SerpApi)
+2026-02-09 14:49:52,432 | INFO | --- Processing Iceland (ebay.co.uk) ---
+2026-02-09 14:49:52,432 | INFO | Fetching 'Icelandic Hoodies' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:50:03,939 | INFO | Fetching 'Volcanic Jewelry' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:50:09,711 | INFO | Fetching 'Omnom Chocolate' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-09 14:50:14,140 | INFO | eBay scraper completed | records: 27
+2026-02-09 14:50:14,295 | INFO | Step completed successfully: eBay Scraper
+2026-02-09 14:50:14,295 | INFO | Starting step: Trend Intelligence Pipeline
+2026-02-09 14:50:18,098 | INFO | Step completed successfully: Trend Intelligence Pipeline
+2026-02-09 14:50:18,098 | INFO | Pipeline execution completed

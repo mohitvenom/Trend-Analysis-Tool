@@ -1,0 +1,11 @@
+streamlit
+pandas
+requests
+beautifulsoup4
+yt-dlp
+fastapi
+uvicorn
+httpx
+altair
+watchdog
+python-dotenv
