@@ -290,12 +290,17 @@ def festival_search(request: FestivalSearchRequest, background_tasks: Background
     User-driven festival search: keyword + festival name + Amazon country.
     Results are saved to festival_trending_products.json and appear in Festival Intelligence.
     """
+    print(f"Starting background festival search: {request.keyword} | {request.festival_name} | {request.country}")
     def run_search():
-        festival_module.run_custom_festival_search(
-            keyword=request.keyword,
-            festival_name=request.festival_name,
-            country=request.country,
-        )
+        try:
+            festival_module.run_custom_festival_search(
+                keyword=request.keyword,
+                festival_name=request.festival_name,
+                country=request.country,
+            )
+            print(f"Finished background festival search for {request.keyword}")
+        except Exception as e:
+            print(f"ERROR in background festival search: {e}")
 
     background_tasks.add_task(run_search)
     return {
