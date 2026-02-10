@@ -163,7 +163,7 @@ def fetch_festivals(country=None):
 @st.cache_data(ttl=300)
 def check_api_health():
     try:
-        r = requests.get(f"{API_BASE_URL}/health", timeout=2)
+        r = requests.get(f"{API_BASE_URL}/health", timeout=15)
         return r.status_code == 200
     except:
         return False
