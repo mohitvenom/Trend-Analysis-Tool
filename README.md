@@ -22,7 +22,7 @@ A powerful, standalone dashboard for tracking e-commerce trends across **Amazon,
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/Trend-Analysis-Tool.git
+    git clone https://github.com/mohitvenom/Trend-Analysis-Tool.git
     cd Trend-Analysis-Tool
     ```
 
