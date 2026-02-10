@@ -163,10 +163,7 @@ def fetch_festivals(country=None):
 @st.cache_data(ttl=300)
 def check_api_health():
     try:
-        # Strip trailing slash from API_BASE_URL to avoid double slashes
-        base_url = API_BASE_URL.rstrip("/")
-        # Increase timeout to 15s for Render cold starts
-        r = requests.get(f"{base_url}/health", timeout=15)
+        r = requests.get(f"{API_BASE_URL}/health", timeout=2)
         return r.status_code == 200
     except:
         return False
