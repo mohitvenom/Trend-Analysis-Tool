@@ -487,3 +487,29 @@ PermissionError: [Errno 13] Permission denied: 'outputs/amazon_trending.csv'
 2026-02-09 14:50:14,295 | INFO | Starting step: Trend Intelligence Pipeline
 2026-02-09 14:50:18,098 | INFO | Step completed successfully: Trend Intelligence Pipeline
 2026-02-09 14:50:18,098 | INFO | Pipeline execution completed
+2026-02-10 11:10:39,742 | INFO | Pipeline execution started
+2026-02-10 11:10:39,742 | INFO | Starting step: Amazon Scraper
+2026-02-10 11:10:43,913 | INFO | Amazon scraper started (Multi-Country via SerpApi)
+2026-02-10 11:10:43,915 | INFO | --- Processing Iceland (amazon.co.uk) ---
+2026-02-10 11:10:43,915 | INFO | Fetching 'Icelandic Hoodies' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-10 11:10:53,344 | INFO | Fetching 'Volcanic Jewelry' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-10 11:11:01,518 | INFO | Fetching 'Omnom Chocolate' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-10 11:11:06,684 | INFO | Fetching 'Wireless Earbuds' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-10 11:11:11,371 | INFO | Fetching 'Smart Watches' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-10 11:11:16,593 | INFO | Fetching 'Skincare Products' on amazon.co.uk via SerpApi (Key: ...d36e)
+2026-02-10 11:11:22,088 | INFO | Amazon scraper completed | records: 60
+2026-02-10 11:11:22,345 | INFO | Step completed successfully: Amazon Scraper
+2026-02-10 11:11:22,345 | INFO | Starting step: eBay Scraper
+2026-02-10 11:11:24,768 | INFO | eBay scraper started (Iceland via SerpApi)
+2026-02-10 11:11:24,770 | INFO | --- Processing Iceland (ebay.co.uk) ---
+2026-02-10 11:11:24,770 | INFO | Fetching 'Icelandic Hoodies' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-10 11:11:30,354 | INFO | Fetching 'Volcanic Jewelry' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-10 11:11:36,268 | INFO | Fetching 'Omnom Chocolate' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-10 11:11:39,600 | INFO | Fetching 'Wireless Earbuds' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-10 11:11:45,112 | INFO | Fetching 'Smart Watches' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-10 11:11:50,407 | INFO | Fetching 'Skincare Products' on ebay.co.uk via SerpApi (Key: ...d36e)
+2026-02-10 11:11:56,067 | INFO | eBay scraper completed | records: 57
+2026-02-10 11:11:56,429 | INFO | Step completed successfully: eBay Scraper
+2026-02-10 11:11:56,429 | INFO | Starting step: Trend Intelligence Pipeline
+2026-02-10 11:12:09,006 | INFO | Step completed successfully: Trend Intelligence Pipeline
+2026-02-10 11:12:09,007 | INFO | Pipeline execution completed
