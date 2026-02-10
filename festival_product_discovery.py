@@ -1,10 +1,12 @@
 import json
+
 import random
 import requests
 import argparse
 from datetime import datetime, timedelta, timezone
 from country_config import COUNTRIES
 
+import os
 from dotenv import load_dotenv
 
 # Load environment variables from scrapers/.env
