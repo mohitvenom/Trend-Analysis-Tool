@@ -55,6 +55,17 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# Enable CORS for Streamlit Cloud connectivity
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
+
 # Constants
 OUTPUT_DIR = "outputs"
 FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "final_trending_products_deduped.csv")
