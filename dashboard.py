@@ -45,7 +45,20 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # API Configuration
-API_BASE_URL = "http://127.0.0.1:8000"
+# Initialize session state for API URL if not present
+if "api_url" not in st.session_state:
+    st.session_state.api_url = "http://127.0.0.1:8000"
+
+# Sidebar configuration for API URL
+with st.sidebar:
+    st.divider()
+    with st.expander("🔌 Connection Settings"):
+        new_api_url = st.text_input("Backend API URL", value=st.session_state.api_url, help="Enter ngrok URL if running remotely")
+        if new_api_url != st.session_state.api_url:
+            st.session_state.api_url = new_api_url
+            st.rerun()
+
+API_BASE_URL = st.session_state.api_url
 OUTPUT_DIR = "outputs"
 FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "final_trending_products_deduped.csv")
 FESTIVAL_OUTPUT_FILE = "festival_trending_products.json"
