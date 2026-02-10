@@ -81,5 +81,3 @@ Since the cloud app runs in "Standalone Mode", follow this workflow to update th
 5.  Open a Pull Request
 
 ---
-
-*Verified by Deepmind Advanced Co-Pilot* 🤖
